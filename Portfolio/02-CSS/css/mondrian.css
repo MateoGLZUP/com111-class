@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: white;
+}
+
+.container1 {
+    width: 160px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 30px 130px; /* 2 columns */
+    grid-template-rows: 140px 40px 20px; /* 3 rows */
+    border: 1px solid black;
+}
+
+.container2 {
+    width: 50px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 50px; /* 1 column */
+    grid-template-rows: 30px 110px 40px 20px; /* 4 rows */
+    border: 1px solid black;
+}
+
+.container3 {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 120px 80px; /* 2 columns */
+    grid-template-rows: 30px 110px 60px; /* 3 rows */
+    border: 1px solid black;
+}
+
+.box {
+    border: 5px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* Blue box - Medium */
+.blue {
+    background-color: #2d519f;
+    grid-column: 2; /* Spans from the 1st to the 2nd column */
+    grid-row: 2; /* Sits in the 1st row */
+}
+
+/* Red box - Big */
+.red {
+    background-color: #d8331a;
+    grid-column: 1; /* Spans from the 1st to the 2nd column */
+    grid-row: 2; /* Spans from the 1st to the 2nd row */
+}
+
+/* Yellow box - Small */
+.yellow {
+    background-color: #f7d842;
+    grid-column: 2; /* In the 2nd column */
+    grid-row: 1; /* Sits in the 3rd row */
+}

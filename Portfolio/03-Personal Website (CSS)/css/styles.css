@@ -1,3 +1,224 @@
 body {
+  background-color: #dccdbc;
+  font-family: 'Merriweather', serif;
+  text-align: center;
   margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #FFFFFF;
+  font-size: 5.5rem;
+  margin: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  padding-bottom: 5px;
+  color: #2C2C2C;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #8a9a9a;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0;
+  margin: 10px auto;
+  list-style-position: inside;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted #EAF6F6;
+  width: 4%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2C2C2C;
+}
+
+a:hover {
+  color: #555555;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+
+.section:nth-child(even) {
+  background-color: #cbb9a8;
+}
+
+.team-container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-card {
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 280px;
+  padding: 15px;
+  margin: 10px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-img {
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.team-info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #2C2C2C;
+}
+
+.weekly-schedule {
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #2C2C2C;
+  border-collapse: collapse;
+}
+
+.weekly-schedule th,
+.weekly-schedule td {
+  padding: 10px 15px;
+  border: 1px solid #E6E6FA;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+form {
+  border: none;
+  background-color: #F0F8FF;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="color"],
+textarea,
+select {
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 95%;
+  margin: 5px 0;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.mountain {
+  width: 100%;
+  height: 200px;
+  position: relative; /* Make the mountain a positioning context */
+}
+
+.mountain-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+}
+
+.cloud {
+  position: sticky; /* Position the cloud relative to the nearest positioned ancestor */
+  top: 10px; /* Adjust this to change vertical positioning */
+  left: 50%;
+  width: 100px;
+  height: 0px;
+}
+
+.cloud-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.column {
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #2C2C2C;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555555;
 }
