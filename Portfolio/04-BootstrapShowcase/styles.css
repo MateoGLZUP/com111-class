@@ -1,0 +1,44 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+  }
+  
+  .accordion-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #0056b3;
+  }
+  
+  .accordion-item {
+    border: none;
+  }
+  
+  .btn-group .btn {
+    min-width: 120px;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .progress-bar {
+    height: 25px;
+  }
+  
+  .footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  
