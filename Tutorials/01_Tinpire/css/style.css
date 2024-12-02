@@ -1,3 +1,4 @@
+/* Gradient Background for Title and Footer */
 .gradient-background {
   background: linear-gradient(300deg, #feffff, #070100, #ff4c68);
   background-size: 180% 180%;
@@ -8,12 +9,124 @@
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
+}
+
+/* Title Section */
+#title img {
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+#title h1 {
+  font-size: 2.5rem;
+}
+
+#title .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+#title .btn-outline-light {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#title .btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Features Section */
+#features .icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonial Section */
+.profile-img {
+  display: block;
+  margin: 2rem auto;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 100px;
+}
+
+.carousel-inner img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Pricing Section */
+#pricing .card-header {
+  font-size: 1.25rem;
+}
+
+#pricing .card-title {
+  font-size: 2.5rem;
+}
+
+#pricing .card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+#pricing .btn-outline-dark {
+  border-color: #000;
+}
+
+#pricing .btn-outline-dark:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#pricing .btn-dark {
+  background-color: #343a40;
+  border: none;
+}
+
+/* Footer Section */
+footer {
+  padding: 2rem 0;
+}
+
+footer .nav-link {
+  color: #fff;
+}
+
+footer .nav-link:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #fff;
+}
+
+/* General Spacing Fixes */
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
 }

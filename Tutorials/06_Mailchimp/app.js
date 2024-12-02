@@ -1,14 +1,13 @@
 const express = require("express");
-
 const app = express();
 
-
-app.listen(3000, () => {
-    console.log("Listening on port 3000");
+// Home route
+app.get("/", (req, res) => {
+  res.send("Hello World");
 });
 
-
-
-
-
-
+// Server setup
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
